@@ -17,6 +17,7 @@ Source:	    http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell6-%{languag
 URL:		http://aspell.sourceforge.net/
 License:	GPL
 Epoch:		1
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 Provides: spell-%{languagecode}
 
 BuildRequires:	aspell >= 0.50
