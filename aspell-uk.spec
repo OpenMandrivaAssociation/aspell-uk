@@ -44,7 +44,7 @@ A %{languageenglazy} dictionary for use with aspell, a spelling checker.
 %make
 
 %install
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %makeinstall_std
 
@@ -52,7 +52,7 @@ rm -fr $RPM_BUILD_ROOT
 chmod 644 README* Copyright
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %files
 %defattr(-,root,root)
