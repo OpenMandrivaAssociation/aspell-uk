@@ -15,7 +15,7 @@ Version:	1.4.0.0
 Release:	2
 Group:		System/Internationalization
 License:	GPLv2+ and LGPLv2+
-Url:		http://aspell.sourceforge.net/
+Url:		https://aspell.sourceforge.net/
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell6-%{languagecode}-%{src_ver}.tar.bz2
 
 BuildRequires:	aspell >= 0.60
